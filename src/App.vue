@@ -1,14 +1,14 @@
 <template>
-  <ComicsComponent />
+  <SumarCheckBox />
 </template>
 
 <script>
-import ComicsComponent from "./components/ComicsComponent.vue";
+import SumarCheckBox from "./components/SumarCheckBox.vue";
 
 export default {
   name: "App",
   components: {
-    ComicsComponent,
+    SumarCheckBox,
   },
 };
 </script>
