@@ -1,14 +1,15 @@
 <template>
-  <SumarCheckBox />
+  <MenuComponent />
+  <router-view></router-view>
 </template>
 
 <script>
-import SumarCheckBox from "./components/SumarCheckBox.vue";
+import MenuComponent from "./components/MenuComponent.vue";
 
 export default {
   name: "App",
   components: {
-    SumarCheckBox,
+    MenuComponent,
   },
 };
 </script>
